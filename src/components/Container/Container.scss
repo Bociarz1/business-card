@@ -1,0 +1,16 @@
+.app-container {
+  max-width: 100%;
+  margin: 1.5vh 1.5vh 10vh 1.5vh;
+}
+
+@media (max-width: 767px) and (orientation:landscape) {
+  .app-container {
+    margin: 2.5vw 2.5vw 10vw 2.5vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .app-container {
+    margin: 3.2vh 3.2vh 10vw 3.2vh;
+  }
+}

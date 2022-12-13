@@ -1,0 +1,63 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+a .app-container-projects-listofprojects-projectitem {
+  transition: 0.3s;
+}
+a .app-container-projects-listofprojects-projectitem:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+a .app-container-projects-listofprojects-projectitem .app-container-projects-listofprojects-projectitem-image {
+  width: 100%;
+  height: 25vh;
+  background-image: url("../../../../public/img/github.png");
+  background-position: center;
+  background-size: cover;
+}
+a .app-container-projects-listofprojects-projectitem h1 {
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  font-weight: 100%;
+}
+a .app-container-projects-listofprojects-projectitem p {
+  font-family: "Work Sans", sans-serif;
+  color: var(--gray);
+  line-height: 150%;
+  text-align: center;
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+  .app-container-projects-listofprojects-projectitem .app-container-projects-listofprojects-projectitem-image {
+    height: 30vw;
+  }
+}
+@media (min-width: 768px) {
+  .app-container-projects-listofprojects-projectitem {
+    width: 22vw;
+    padding-bottom: 3.5vh;
+    transition: 0.3s;
+  }
+  .app-container-projects-listofprojects-projectitem:hover {
+    transform: scale(1.05);
+  }
+  .app-container-projects-listofprojects-projectitem .app-container-projects-listofprojects-projectitem-image {
+    width: 100%;
+    height: 25vh;
+    background-image: url("../../../../../../public/img/github.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .app-container-projects-listofprojects-projectitem h1 {
+    font-family: "Anton", sans-serif;
+    text-align: center;
+    font-weight: 100%;
+  }
+  .app-container-projects-listofprojects-projectitem p {
+    font-family: "Work Sans", sans-serif;
+    color: var(--gray);
+    line-height: 150%;
+    text-align: center;
+  }
+}/*# sourceMappingURL=ProjectItem.css.map */

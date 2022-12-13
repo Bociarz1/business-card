@@ -1,0 +1,54 @@
+.app-container-contact {
+  position: relative;
+  bottom: 8vh;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  margin: 15vh auto 5vh auto;
+  padding: 5vh;
+  background-color: #621671;
+  align-items: center;
+  color: #fff;
+  font-size: 4vh;
+  font-family: "Anton", sans-serif;
+  font-weight: 100;
+}
+.app-container-contact div {
+  padding: 1vh 0;
+  font-size: 2vh;
+  font-family: "Work Sans", sans-serif;
+}
+.app-container-contact div:nth-of-type(1) svg {
+  transform: scale(1.5);
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+  .app-container-contact {
+    margin: 10vw auto 0 auto;
+    font-size: 5vw;
+  }
+  .app-container-contact div {
+    padding: 1vw 0;
+    font-size: 2vw;
+  }
+}
+@media (min-width: 768px) {
+  .app-container-contact {
+    margin: -6vh 5% 0 auto;
+    height: auto;
+    font-size: 4vh;
+    padding: 4vh;
+  }
+  .app-container-contact div {
+    font-size: 1.9vw;
+    font-family: "Work Sans", sans-serif;
+  }
+  .app-container-contact div:nth-of-type(1) svg {
+    transform: scale(1.5);
+  }
+}
+@media (min-width: 970px) {
+  .app-container-contact div {
+    font-size: 2vh;
+  }
+}/*# sourceMappingURL=Contact.css.map */

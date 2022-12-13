@@ -1,0 +1,18 @@
+.app-container-projects-listofprojects {
+  width: 90%;
+  margin: 0 auto;
+  padding: 3vh;
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+  .app-container-projects-listofprojects {
+    padding: 3vw;
+  }
+}
+@media (min-width: 768px) {
+  .app-container-projects-listofprojects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=ListOfProjects.css.map */

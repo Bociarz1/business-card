@@ -1,0 +1,78 @@
+@-webkit-keyframes navUp {
+  to {
+    padding-top: 0;
+  }
+}
+@keyframes navUp {
+  to {
+    padding-top: 0;
+  }
+}
+@-webkit-keyframes navDown {
+  from {
+    padding-top: 0;
+  }
+  to {
+    padding-top: 10vh;
+  }
+}
+@keyframes navDown {
+  from {
+    padding-top: 0;
+  }
+  to {
+    padding-top: 10vh;
+  }
+}
+.app-nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+  width: 33vw;
+  padding-top: 10vh;
+  background-color: var(--yellow);
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.app-nav .app-nav-textcontainer {
+  width: 91%;
+  padding: 10%;
+  font-size: 2.5vh;
+  color: var(--purple);
+  font-family: "Anton", sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.app-nav .app-nav-textcontainer p {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.app-nav .app-nav-textcontainer p:hover {
+  padding-left: 5px;
+  border-left: 5px solid var(--purple);
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+  .app-nav .app-nav-textcontainer {
+    font-size: 2.5vw;
+  }
+}
+@media (min-width: 768px) {
+  .app-nav {
+    width: 28vw;
+    right: 5%;
+  }
+  .app-nav .app-nav-textcontainer {
+    padding-left: 0;
+    font-size: 2.5vh;
+  }
+}/*# sourceMappingURL=Nav.css.map */

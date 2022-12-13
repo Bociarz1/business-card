@@ -1,0 +1,143 @@
+.app-container-slider {
+  width: 90%;
+  padding: 2.5vh;
+  margin: 3vh auto;
+  position: relative;
+}
+.app-container-slider section.wrap {
+  margin: 0 auto;
+  flex-direction: column-reverse;
+}
+.app-container-slider section.wrap .container-slider-slide {
+  width: 100%;
+}
+.app-container-slider section.wrap .container-slider-slide .react-slideshow-container button {
+  display: none;
+}
+.app-container-slider section.wrap .app-container-slider-technologies {
+  display: flex;
+  margin-top: 2vh;
+  margin-bottom: 7vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.app-container-slider section.wrap .app-container-slider-technologies svg {
+  margin: 0 1vh;
+  width: 20%;
+  height: 20%;
+}
+.app-container-slider .app-container-slider-heading div {
+  font-family: "Anton", sans-serif;
+  width: 20vh;
+  height: 5vh;
+  line-height: 5vh;
+  border-radius: 2rem;
+  text-align: center;
+  color: #fff;
+  background-color: var(--purple);
+  margin: 2vh 0 2vh 0;
+}
+.app-container-slider .app-container-slider-heading h1 {
+  font-family: "Anton", sans-serif;
+  font-weight: 100;
+  line-height: 110%;
+  margin: 0 0 4vh 0;
+}
+.app-container-slider .app-container-slider-heading p {
+  font-family: "Work Sans", sans-serif;
+  color: var(--gray);
+  line-height: 150%;
+  margin: 0 0 6vh 0;
+}
+.app-container-slider .slideheading {
+  position: relative;
+  min-height: 50%;
+  top: 35%;
+  text-align: center;
+  font-size: 3vh;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 900;
+  font-size: 5.5vh;
+  color: #fff;
+}
+.app-container-slider .slideheading div {
+  transform: scale(3);
+  margin-bottom: 3vh;
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+  .app-container-slider {
+    padding: 2.5vw;
+    margin: 3vw auto;
+    position: relative;
+  }
+  .app-container-slider section.wrap .app-container-slider-technologies {
+    margin: 9vw 0;
+  }
+  .app-container-slider section.wrap .app-container-slider-technologies svg {
+    margin: 0 1vw;
+    width: 20%;
+    height: 20%;
+  }
+  .app-container-slider .app-container-slider-heading {
+    margin: 0 0 4vw 0;
+  }
+  .app-container-slider .app-container-slider-heading div {
+    width: 20vw;
+    height: 5vw;
+    line-height: 5vw;
+    margin: 2vw 0 2vw 0;
+  }
+  .app-container-slider p {
+    margin: 0 0 6vw 0;
+  }
+  .slideheading {
+    font-size: 5.5vw;
+  }
+  .slideheading div {
+    margin-bottom: 3vw;
+  }
+}
+@media (min-width: 768px) {
+  .app-container-slider {
+    width: 90%;
+    padding: 2.5vw;
+    margin: 3vw auto;
+  }
+  .app-container-slider section.wrap {
+    flex-direction: row;
+  }
+  .app-container-slider section.wrap .container-slider-slide {
+    width: 70%;
+  }
+  .app-container-slider section.wrap .app-container-slider-technologies {
+    display: flex;
+    margin: 4vh 0;
+    flex-direction: column;
+  }
+  .app-container-slider section.wrap .app-container-slider-technologies svg {
+    margin: 1vh 1vh;
+    width: 20%;
+    height: 20%;
+  }
+  .app-container-slider .app-container-slider-heading div {
+    width: 20vh;
+    height: 5vh;
+    line-height: 5vh;
+    margin: 2vh 0 2vh 0;
+  }
+  .app-container-slider .app-container-slider-heading h1 {
+    margin: 0 0 4vh 0;
+  }
+  .app-container-slider .app-container-slider-heading p {
+    margin: 0 0 6vh 0;
+  }
+  .app-container-slider .slideheading {
+    font-size: 5.5vh;
+  }
+  .app-container-slider .slideheading div {
+    margin-bottom: 3vh;
+  }
+}/*# sourceMappingURL=Slider.css.map */

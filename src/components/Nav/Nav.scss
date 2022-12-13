@@ -1,0 +1,67 @@
+@keyframes navUp {
+  to {padding-top: 0;}
+}
+
+@keyframes navDown {
+  from {padding-top: 0;}
+  to {padding-top: 10vh;}
+}
+
+.app-nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+
+  width: 33vw;
+  padding-top: 10vh;
+
+  background-color: var(--yellow);
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+
+  .app-nav-textcontainer {
+    width: 91%;
+    padding: 10%;
+
+    font-size: 2.5vh;
+    color: var(--purple);
+    font-family: 'Anton', sans-serif;
+    user-select: none;
+
+    p {
+      cursor: pointer;
+      transition: .3s;
+      &:hover {
+        padding-left: 5px;
+        border-left: 5px solid var(--purple);
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) and (orientation:landscape) {
+  .app-nav {
+    .app-nav-textcontainer {
+      font-size: 2.5vw;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .app-nav {
+    width: 28vw;
+    right: 5%;
+    // margin: 0 calc(28.5vw+4.7vh) 0 auto;
+    .app-nav-textcontainer {
+      padding-left: 0;
+      font-size: 2.5vh;
+      
+    }
+  }
+}

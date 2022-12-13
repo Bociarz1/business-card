@@ -1,0 +1,108 @@
+.app-container-about {
+  width: 90%;
+  margin: -4vh auto 0 auto;
+  background-color: #fff;
+}
+.app-container-about .app-container-about-text {
+  font-family: "Anton", sans-serif;
+  padding: 2.5vh;
+}
+.app-container-about .app-container-about-text .app-container-about-image {
+  width: 100%;
+  height: 65vh;
+  background-image: url("../../../../public/img/my-photo.png");
+  background-size: cover;
+  background-position: center;
+}
+.app-container-about .app-container-about-text .app-container-about-button {
+  width: 20vh;
+  height: 5vh;
+  line-height: 5vh;
+  border-radius: 2rem;
+  text-align: center;
+  color: #fff;
+  background-color: var(--purple);
+  margin: 2vh 0 2vh 0;
+}
+.app-container-about .app-container-about-text h1 {
+  font-weight: 100;
+  line-height: 110%;
+  margin: 0 0 4vh 0;
+}
+.app-container-about .app-container-about-text p {
+  font-family: "Work Sans", sans-serif;
+  color: var(--gray);
+  line-height: 150%;
+  margin: 0 0 6vh 0;
+}
+.app-container-about .app-container-about-text p a {
+  font-weight: 900;
+  color: var(--purple);
+}
+.app-container-about .app-container-about-heading {
+  display: flex;
+  align-items: center;
+  padding: 10vh;
+  font-size: 4vh;
+  line-height: 120%;
+  background-color: #621671;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+  .app-container-about {
+    margin: -4vw auto 0 auto;
+    padding: 2.5vw;
+  }
+  .app-container-about .app-container-about-text {
+    padding: 2.5vw;
+  }
+  .app-container-about .app-container-about-text .app-container-about-image {
+    height: 110vw;
+  }
+  .app-container-about .app-container-about-text .app-container-about-button {
+    width: 20vw;
+    height: 5vw;
+    line-height: 5vw;
+    margin: 2vw 0 2vw 0;
+  }
+  .app-container-about .app-container-about-text h1 {
+    margin: 0 0 4vw 0;
+  }
+  .app-container-about .app-container-about-text p {
+    margin: 0 0 6vw 0;
+  }
+  .app-container-about .app-container-about-heading {
+    padding: 10vw;
+    font-size: 6vw;
+  }
+}
+@media (min-width: 768px) {
+  .app-container-about {
+    display: flex;
+    margin: -4vh auto 0 auto;
+  }
+  .app-container-about .app-container-about-text {
+    padding: 2.5vh;
+  }
+  .app-container-about .app-container-about-text .app-container-about-image {
+    height: 125vh;
+  }
+  .app-container-about .app-container-about-text .app-container-about-button {
+    margin: 2vh 0 2vh 0;
+  }
+  .app-container-about .app-container-about-text h1 {
+    margin: 0 0 4vh 0;
+  }
+  .app-container-about .app-container-about-text p {
+    margin: 0 0 6vh 0;
+  }
+  .app-container-about .app-container-about-heading {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width: 28vw;
+    font-size: 4vh;
+  }
+}/*# sourceMappingURL=About.css.map */
