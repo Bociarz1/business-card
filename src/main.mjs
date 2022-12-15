@@ -4,7 +4,9 @@ import App from "./App";
 import "./index.css";
 import LanguageContextProvider from "./context/LanguageContext";
 
-ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
+// as HTMLElement
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <LanguageContextProvider>
       <App />
