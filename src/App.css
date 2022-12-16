@@ -5,5 +5,8 @@
   --gray: #000000BF;
   max-width: 100%;
   min-height: 100vh;
+  -webkit-tap-highlight-color: transparent;
+}
+.app a:focus, .app a:visited, .app a:active {
   outline: none;
 }/*# sourceMappingURL=App.css.map */

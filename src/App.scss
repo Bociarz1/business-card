@@ -10,5 +10,9 @@
 
   max-width: 100%;
   min-height: 100vh;
-  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  
+  a:focus,a:visited,a:active{
+    outline: none;
+  }
 }
