@@ -17,28 +17,37 @@ const slideImages = [
     style: { backgroundColor: "#E44D26", height: "100%" },
     caption: "HTML5",
     sign: <Html />,
+    url: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5'
   },
   {
     style: { backgroundColor: "#264DE4", height: "100%" },
     caption: "CSS3",
     sign: <Css />,
+    url: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
   },
   {
     style: { backgroundColor: "#F7DF1E", height: "100%" },
     caption: "JAVASCRIPT",
     sign: <Js />,
+    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
   },
   {
     style: { backgroundColor: "#3178C6", height: "100%" },
     caption: "TYPESCRIPT",
     sign: <Ts />,
+    url: 'https://www.typescriptlang.org/'
   },
   {
     style: { backgroundColor: "#00D8FF", height: "100%" },
     caption: "REACT",
     sign: <React />,
+    url: 'https://reactjs.org/docs/getting-started.html'
   },
 ];
+
+const routing = (url: string) => {
+window.open(url)
+}
 
 function Slider() {
   const {toogle, language:{english}, language:{polish}} = useLanguageContext()
@@ -72,11 +81,11 @@ function Slider() {
           </Fade>
         </div>
         <div className="app-container-slider-technologies">
-          <Html style={{color: '#E44D26'}}/>
-          <Css style={{color: '#264DE4'}}/>
-          <Js style={{color: '#F7DF1E'}}/>
-          <Ts style={{color: '#3178C6'}}/>
-          <React style={{color: '#00D8FF'}}/>
+          <Html onClick={()=> routing(slideImages[0].url)} style={{color: '#E44D26'}}/>
+          <Css onClick={()=> routing(slideImages[1].url)} style={{color: '#264DE4'}}/>
+          <Js onClick={()=> routing(slideImages[2].url)} style={{color: '#F7DF1E'}}/>
+          <Ts onClick={()=> routing(slideImages[3].url)} style={{color: '#3178C6'}}/>
+          <React onClick={()=> routing(slideImages[4].url)} style={{color: '#00D8FF'}}/>
         </div>
       </section>
     </div>

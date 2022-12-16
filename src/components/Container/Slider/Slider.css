@@ -24,9 +24,15 @@
   flex-grow: 1;
 }
 .app-container-slider section.wrap .app-container-slider-technologies svg {
-  margin: 0 1vh;
+  margin: 0 2vh;
   width: 20%;
   height: 20%;
+  transition: 0.3s;
+}
+.app-container-slider section.wrap .app-container-slider-technologies svg:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .app-container-slider .app-container-slider-heading div {
   font-family: "Anton", sans-serif;

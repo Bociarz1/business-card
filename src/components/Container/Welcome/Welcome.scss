@@ -33,7 +33,6 @@
 
   .app-welcome-language {
     padding: 5%;
-
     font-weight: 100;
     font-size: 3vh;
     color: #fff;
@@ -46,7 +45,7 @@
       transition: .3s;
         &:hover {
           padding-left: 5px;
-          border-left: 5px solid #fff;
+          border-left: 5px solid var(--yellow);
         };
     }
   }

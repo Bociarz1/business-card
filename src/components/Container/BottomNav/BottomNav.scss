@@ -4,7 +4,7 @@
   height: 60vh;
   position: relative;
   background-color: black;
-  margin: -4vh auto 15vh auto;
+  margin: -4vh auto 25vh auto;
   // z-index: -1;
  
   background-image: linear-gradient( rgba(70, 52, 78, 0.7), rgba(70, 52, 78, 0.1) ), url('../../../../public/img/bottomnav.jpg');
@@ -15,9 +15,10 @@
   font-weight: 900;
 
   .app-container-bottomnav-text {
-    padding: 3vh 0 0 6vh;
+    padding: 3vh;
     font-size: 5.5vh;
     color: #fff;
+    
     span {
       color: var(--yellow)
     }
@@ -52,8 +53,10 @@
 @media (max-width: 767px) and (orientation:landscape) {
   .app-container-bottomnav {
     height: 45vw;
+    margin: -4vw auto 40vw auto;
+
     .app-container-bottomnav-text {
-      padding: 12vh 0 0 6vh;
+      padding: 4vw;
       font-size: 5.5vw;
       color: #fff;
     }

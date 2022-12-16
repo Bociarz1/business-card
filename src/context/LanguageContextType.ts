@@ -1,5 +1,8 @@
 export type LanguageContextType = {
   english: {
+    github: {
+      description: string
+    },
     welcome: {
       scrollToExplore: string
     },
@@ -36,6 +39,9 @@ export type LanguageContextType = {
     }
   },
   polish: {
+    github: {
+      description: string
+    },
     welcome: {
       scrollToExplore: string
     },

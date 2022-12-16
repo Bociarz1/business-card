@@ -35,6 +35,7 @@
 }
 .app-container-projects .app-container-projects-heading {
   display: flex;
+  justify-content: center;
   align-items: center;
   padding: 10vh;
   font-size: 4vh;
@@ -79,6 +80,9 @@
     padding: 2.5vh;
   }
   .app-container-projects .app-container-projects-heading {
+    position: relative;
+    display: flex;
+    justify-content: center;
     max-width: 28vw;
     font-size: 4vh;
   }

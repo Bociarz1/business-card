@@ -1,12 +1,14 @@
 .app-container-projects-listofprojects {
   width: 90%;
-  margin: 0 auto;
-  padding: 3vh;
+  margin: 0 auto 5vh auto;
+  padding: auto 3vh;
 }
 
 @media (max-width: 767px) and (orientation:landscape) {
   .app-container-projects-listofprojects {
-    padding: 3vw;
+    padding:  0 3vw;
+  margin: 0 auto 5vw auto;
+
   }
 }
 

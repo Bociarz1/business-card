@@ -44,6 +44,7 @@
 
   .app-container-about-heading {
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 10vh;
     font-size: 4vh;
@@ -51,6 +52,8 @@
     background-color: #621671;
     color: #fff;
     font-family: 'Anton', sans-serif;
+    margin: 2vh
+
   }
 }
 

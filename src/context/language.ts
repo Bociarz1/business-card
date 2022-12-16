@@ -1,5 +1,9 @@
 export const language = {
   english: {
+    // in future to change
+    github: {
+      description: 'There is my portfolio'
+    },
     welcome: {
       scrollToExplore: 'Scroll to explore'
     },
@@ -36,6 +40,10 @@ export const language = {
     }
   },
   polish: {
+    // in future to change
+    github: {
+      description: 'Tutaj znajdziesz moje portfolio'
+    },
     welcome: {
       scrollToExplore: 'Przewiń, aby eksplorować'
     },

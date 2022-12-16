@@ -6,7 +6,7 @@ import { useLanguageContext } from '../../../../context/LanguageContext';
 function Contact() {
   const {toogle, language:{english}, language:{polish}} = useLanguageContext()
   return ( 
-    <div className="app-container-contact" data-aos="fade-up" data-aos-once="true">
+    <div className="app-container-contact">
       <p>{toogle ? english.bottomNav.contact : polish.bottomNav.contact}</p>
       <div><IoIosPhonePortrait/><br/>+48 726-799-928</div>
       <div><TfiEmail/><br/>adrian.turowski.it@gmail.com</div>
