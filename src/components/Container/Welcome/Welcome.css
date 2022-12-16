@@ -78,7 +78,7 @@
 }
 .app-container-welcome {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   background-image: linear-gradient(rgba(70, 52, 78, 0.7), rgba(70, 52, 78, 0.1)), url("../../../../public/img/welcome.jpg");
   background-position: center;
   background-size: cover;
@@ -205,6 +205,9 @@
 }
 
 @media (max-width: 767px) and (orientation: landscape) {
+  .app-container-welcome {
+    height: 50vw;
+  }
   .app-container-welcome .app-welcome-language {
     font-size: 2.5vw;
     padding: 1% 5%;
